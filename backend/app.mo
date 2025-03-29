@@ -216,7 +216,7 @@ actor Main {
             licenseNumber = Option.get(update.licenseNumber, "");
             hospitalAffiliation = Option.get(update.hospitalAffiliation, "");
             address = Option.get(update.address, "");
-            description = Option.get(update.description, "");
+            description = Option.get(update.description, "Hello World");
           };
         };
         case (?existing) {
